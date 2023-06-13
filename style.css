@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'norsebold';
     src: url('/fonts/webfontkit-20230613-161155/norse-bold-webfont.woff2') format('woff2'),
-         url('/fonts/webfontkit-20230613-161155/norse-bold-webfont.woff') format('woff');
+        url('/fonts/webfontkit-20230613-161155/norse-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -60,4 +60,30 @@
 
 .image-credit a {
     color: white;
+}
+
+.introduction {
+    padding-left: 40px;
+}
+
+.form-container {
+    background-color: rgb(218, 218, 218);
+    padding-top: 160px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 40px;
+    padding-left: 40px;
+    background-color: white;
+    box-shadow: 0px 3px 10px 1px grey;
 }
