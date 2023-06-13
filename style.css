@@ -91,7 +91,18 @@ form {
     padding: 20px 40px;
 }
 
+fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
 legend {
     margin-bottom: 20px;
     font-weight: bold;
+}
+
+input {
+    width: 30%;
 }
