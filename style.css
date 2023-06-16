@@ -73,9 +73,21 @@
     flex-grow: 0;
 }
 
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+}
+
 .columns {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 h1,
@@ -106,10 +118,35 @@ legend {
     font-weight: bold;
 }
 
+label {
+    display: block;
+}
+
 
 input {
-    border: 1px solid rgb(192, 191, 191);
+    border: 1px solid #E5E7EB;
     border-radius: 3px;
     padding: 3px;
-    width: 250px;
+    display: block;
+    margin-top: 5px;
+}
+
+input:focus {
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-color: blue;
+}
+
+.below-form_container {
+    padding-left: 40px;
+}
+
+button {
+    color: white;
+    background-color: #596D48;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
