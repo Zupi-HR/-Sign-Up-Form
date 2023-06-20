@@ -31,10 +31,8 @@ body {
     background: url(/images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
     text-align: center;
-    flex-basis: 40%;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .logo_container {
@@ -51,8 +49,9 @@ body {
 }
 
 .logo_container img {
-    width: 60px;
-    height: 100%
+    width: 15%;
+    min-width: 31px;
+    max-width: 60px;
 }
 
 .logo_container p {
@@ -80,9 +79,7 @@ body {
 .form-container {
     background-color: rgb(243, 237, 237);
     padding-top: 50px;
-    flex-basis: 60%;
-    flex-grow: 3;
-    height: 100%;
+    flex: 2;
 }
 
 button,
