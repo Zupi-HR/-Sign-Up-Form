@@ -31,7 +31,6 @@
             <form action="" id="createAccForm">
                 <fieldset>
                     <legend>Let's do this</legend>
-                    <div>
                         <div class="input-group">
                             <label for="first_name">FIRST NAME
                                 <input type="text" id="first_name" name="first_name">
@@ -40,9 +39,8 @@
                                 <input type="text" id="last_name" name="last_name">
                             </label>
                         </div>
-                    </div>
 
-                    <div>
+        
                         <div class="input-group">
                             <label for="email">EMAIL
                                 <input type="email" id="email" name="email">
@@ -52,19 +50,15 @@
                                     pattern="(0[1-9][0-9])\s?[0-9]{3}\s?[0-9]{4}|(0[1-9][0-9])\s?[0-9]{2,3}\-[0-9]{3,4}">
                             </label>
                         </div>
-                    </div>
-
 
                     <div class="input-group">
                         <label for="password">PASSWORD
-                            <input type="password" id="password" name="password"
-                                minlength="5" required>
+                            <input type="password" id="password" name="password" minlength="5" required>
                             <p class="errorMSG"></p>
                         </label>
 
                         <label for="confirmPassword">CONFIRM PASSWORD
-                            <input type="password" id="confirmPassword" name="confirmPassword"
-                                minlength="5" required>
+                            <input type="password" id="confirmPassword" name="confirmPassword" minlength="5" required>
                         </label>
                     </div>
 
