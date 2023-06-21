@@ -159,7 +159,7 @@ input:not([type="checkbox"]):focus {
 
 
 
-input:invalid {
+.invalid {
     border: 1px solid red;
 }
 
@@ -167,11 +167,18 @@ input:invalid {
     border-color: red;
 }
 
-.first-password+span::after {
+.errorMSG {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    visibility: hidden;
+}
+
+#password+span::after {
     content: "*Passwords do not match";
     color: red;
     font-size: 0.8rem;
-    visibility: hidden;
+    display: none;
 }
 
 
