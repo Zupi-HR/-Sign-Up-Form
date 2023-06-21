@@ -158,15 +158,6 @@ input:not([type="checkbox"]):focus {
 }
 
 
-
-.invalid {
-    border: 1px solid red;
-}
-
-.error {
-    border-color: red;
-}
-
 .errorMSG {
     color: red;
     margin-top: 5px;
@@ -232,4 +223,17 @@ button:hover {
 
 .below-form_container a {
     color: #48583a;
+}
+
+/* CLasses for javascript */ 
+.invalid {
+    border: 1px solid red !important; 
+}
+
+.valid {
+    border: 1px solid green !important;
+}
+
+.showElement {
+    visibility: visible !important;   
 }
