@@ -171,6 +171,7 @@ input:invalid {
     content: "*Passwords do not match";
     color: red;
     font-size: 0.8rem;
+    visibility: hidden;
 }
 
 
