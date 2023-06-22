@@ -12,7 +12,7 @@ submitBtn.addEventListener("click", function (event) {
     password.classList.remove("valid");
     confirmPassword.classList.remove("valid");
     errorMessage.classList.remove("showElement");
-
+        
     passwordValue = password.value;
     confirmPasswordValue = confirmPassword.value;
     console.log(passwordValue, confirmPasswordValue);
