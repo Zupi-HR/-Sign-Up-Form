@@ -23,9 +23,10 @@ body {
 
 .container {
     display: flex;
-
     height: 100%;
 }
+
+/*left side */
 
 .background-logo {
     background: url(/images/halie-west-25xggax4bSA-unsplash.jpg);
@@ -71,6 +72,8 @@ body {
 .image-credit a {
     color: white;
 }
+
+/* right side */
 
 .introduction {
     padding-left: var(--align-items);
@@ -157,8 +160,12 @@ input:not([type="checkbox"]):focus {
     column-gap: 40px;
 }
 
+#password {
+    position: relative;
+}
 
 .errorMSG {
+    position: absolute;
     color: red;
     margin-top: 5px;
     font-size: 0.8rem;
@@ -220,9 +227,9 @@ button:hover {
     color: #48583a;
 }
 
-/* CLasses for javascript */ 
+/* CLasses for javascript */
 .invalid {
-    border: 1px solid red !important; 
+    border: 1px solid red !important;
 }
 
 .valid {
@@ -230,5 +237,5 @@ button:hover {
 }
 
 .showElement {
-    visibility: visible !important;   
+    visibility: visible !important;
 }
